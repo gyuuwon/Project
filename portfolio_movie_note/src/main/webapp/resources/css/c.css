@@ -1,0 +1,52 @@
+@charset "UTF-8";
+	.ico_na{
+			background: url('../../resources/img/ico_na.png') no-repeat; 
+			display: inline-block;
+  			overflow: hidden;
+    		line-height: 0;
+    		text-indent: -9999px;
+    		vertical-align: top;
+    		
+    		float: left;	
+    		width: 25px;
+    		height: 25px;
+    		margin: 1px 5px 10px 8px;
+			
+		}
+		.list_start .link_na{
+			background-color: #1ec800;
+		}
+		.list_start .link_br{
+		background-color: white;
+		}
+		.txt_na{
+			color:white;
+			border-left: 1px solid #1ed255;
+		}
+		}
+		.list_start .link_na{
+			background-color: white;
+		}
+		.txt_br{
+			color:black;
+			border-left: 1px solid ghostwhite;
+			}
+		.ico_br {
+		background: url('../../resources/img/logo_ico.png') no-repeat; 
+			display: inline-block;
+  			overflow: hidden;
+    		line-height: 0;
+    		text-indent: -9999px;
+    		vertical-align: top;
+    		
+    		float: left;	
+    		width: 25px;
+    		height: 25px;
+    		margin : 6px 5px 10px 13px;
+		}
+		#loginMain {
+			background-color: antiquewhite;
+		}
+		#loginMain2{
+			background-color: antiquewhite;
+			}

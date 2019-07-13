@@ -1,0 +1,131 @@
+.img_brunch {
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+	background:
+		url(//t1.daumcdn.net/brunch/static/img/help/cbt/img_brunch_180814.v1.png)
+		no-repeat 0 0;
+	vertical-align: top
+}
+
+.account_layer {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 200;
+	margin-left: -230px;
+	margin-top: -180px
+}
+
+.account_layer .inner_account_layer {
+	width: 598px;
+	border: 1px solid #ddd;
+	font-family: 'Noto Sans DemiLight', Malgun Gothic, sans-serif;
+	background-color: #fff
+}
+
+.account_layer .layer_head {
+	padding-top: 66px
+}
+
+.account_layer .tit_brunch {
+	display: block;
+	width: 52px;
+	height: 52px;
+	background-size: 200px auto;
+	margin: 0 auto;
+	background-position: 0 -61px
+}
+
+.account_layer .tit_account {
+	letter-spacing: -1px;
+	padding-top: 18px;
+	font-size: 32px;
+	font-family: 'Nanum Myeongjo', sans-serif;
+	color: #333;
+	text-align: center;
+	line-height: 40px
+}
+
+.account_layer .txt_account {
+	padding-top: 8px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #959595;
+	text-align: center
+}
+
+.account_layer .btn_group {
+	padding-top: 32px;
+	text-align: center;
+	padding-bottom: 60px
+}
+
+.account_layer .btn_group.empty {
+	padding-bottom: 42px
+}
+
+.account_layer .btn_group .btn_account {
+	display: inline-block;
+	height: 20px;
+	padding: 10px 20px;
+	margin: 0 2px;
+	border: 1px solid #bbb;
+	border-radius: 20px;
+	line-height: 20px;
+	text-align: center
+}
+
+.account_layer .btn_group .btn_account.btn_ok {
+	width: 40px
+}
+
+.account_layer .btn_group .btn_write {
+	border-color: #00c3bd;
+	color: #00c3bd
+}
+
+.account_layer .layer_foot .btn_close {
+	position: absolute;
+	right: 16px;
+	top: 16px;
+	width: 20px;
+	height: 20px;
+	padding: 5px
+}
+
+.account_layer .btn_close .img_brunch {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-size: 200px auto;
+	background-position: -52px -61px;
+	cursor: pointer
+}
+
+.account_layer .btn_in_beta_layer {
+	width: 70px
+}
+
+.account_layer .btn_group .btn_request {
+	color: #00c3bd;
+	background-color: #fff;
+	border: 1px solid #00c3bd
+}
+
+.brunch_pass .tit_account {
+	line-height: 43px
+}
+
+.brunch_pass .btn_group {
+	padding-top: 32px
+}
+
+.brunch_pass .btn_close {
+	width: 70px
+}
+
+.brunch_pass .btn_group .btn_request {
+	width: 70px;
+	margin-left: 4px
+}
